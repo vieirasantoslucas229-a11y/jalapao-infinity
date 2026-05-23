@@ -6,7 +6,7 @@
 const PACKAGES = [
   {
     id: 1,
-    img: 'assets/plano1.jpg',
+    img: 'plano1.jpg',
     badge: 'Essencial',
     kicker: 'Pacote 1',
     title: '3 dias / 2 noites',
@@ -30,7 +30,7 @@ const PACKAGES = [
   },
   {
     id: 2,
-    img: 'assets/plano2.jpg',
+    img: 'plano2.jpg',
     badge: 'Com lagoa',
     kicker: 'Pacote 2',
     title: '3 dias / 2 noites · com Lagoa do Japonês',
@@ -54,7 +54,7 @@ const PACKAGES = [
   },
   {
     id: 3,
-    img: 'assets/plano3.jpg',
+    img: 'plano3.jpg',
     badge: 'Mais vendido',
     kicker: 'Pacote 3',
     title: '4 dias / 3 noites · com Lagoa do Japonês',
@@ -82,7 +82,7 @@ const PACKAGES = [
   },
   {
     id: 4,
-    img: 'assets/plano4.jpg',
+    img: 'plano4.jpg',
     badge: 'Imersão',
     kicker: 'Pacote 4',
     title: '5 dias / 4 noites',
@@ -114,7 +114,7 @@ const PACKAGES = [
   },
   {
     id: 5,
-    img: 'assets/plano5.jpg',
+    img: 'plano5.jpg',
     badge: 'Completo',
     kicker: 'Pacote 5',
     title: '6 dias / 5 noites',
@@ -148,7 +148,7 @@ const PACKAGES = [
   },
   {
     id: 6,
-    img: 'assets/hero-7.webp',
+    img: 'hero-7.webp',
     badge: 'Sob medida',
     kicker: 'Roteiro privado',
     title: 'Pacotes personalizados',
@@ -398,3 +398,4 @@ window.addEventListener('message', e => {
 try{
   window.parent.postMessage({ type: '__edit_mode_available' }, '*');
 } catch (e){}
+
